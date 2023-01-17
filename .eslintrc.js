@@ -16,8 +16,6 @@ module.exports = {
     // I suggest this setting for requiring return types on functions only where useful
     "@typescript-eslint/explicit-function-return-type": "off",
 
-    "@typescript-eslint/strict-boolean-expressions": "warn",
-
     // Includes .prettierrc.js rules
     "prettier/prettier": [
       "warn",
