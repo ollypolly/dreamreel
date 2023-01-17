@@ -1,9 +1,10 @@
+/* eslint-disable import/order */
 import { NativeStackScreenProps } from "@react-navigation/native-stack";
 import { Github, Twitter } from "@tamagui/lucide-icons";
 import { FC } from "react";
 import { Anchor, H1, H5, ListItem, Separator, YGroup, YStack } from "tamagui";
-import { MyStack } from "../../components/MyStack";
 
+import { MyStack } from "../../components/MyStack";
 import { LinkToUser } from "./link-to-user";
 
 export const HomeScreen: FC<
